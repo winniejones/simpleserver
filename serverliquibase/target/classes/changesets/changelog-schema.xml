@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    
+    <changeSet id="create-table-address" author="root">
+        <createTable tableName="address">
+            <column name="ID" type="INT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="street" type="VARCHAR(255)"/>
+            <column name="city" type="VARCHAR(100)"/>
+            <column name="province" type="VARCHAR(100)"/>
+            <column name="country" type="VARCHAR(100)"/>
+            <column name="postcode" type="VARCHAR(50)"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="create-table-phone" author="root">
+        <createTable tableName="phone">
+            <column name="ID" type="INT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="type" type="VARCHAR(20)"/>
+            <column name="phoneNumber" type="VARCHAR(255)"/>
+            <column name="areaCode" type="VARCHAR(255)"/>
+            <column name="ownerId" type="INT"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="create-table-project" author="root">
+        <createTable tableName="project">
+            <column name="ID" type="INT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="type" type="VARCHAR(50)"/>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="budget" type="DECIMAL(16,2)"/>
+            <column name="leaderId" type="INT"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="create-table-projectEmployee" author="root">
+        <createTable tableName="projectEmployee">
+            <column name="projectId" type="INT"/>
+            <column name="employeeId" type="INT"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="create-table-employee" author="root">
+        <createTable tableName="employee">
+            <column name="ID" type="INT" autoIncrement="true">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="firstname" type="VARCHAR(255)"/>
+            <column name="lastname" type="VARCHAR(255)"/>
+            <column name="salary" type="DECIMAL(10,2)"/>
+            <column name="startDate" type="DATE"/>
+            <column name="endDate" type="DATE"/>
+            <column name="managerId" type="INT"/>
+            <column name="addressId" type="INT"/>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

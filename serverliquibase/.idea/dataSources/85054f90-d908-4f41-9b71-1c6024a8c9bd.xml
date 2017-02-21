@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="db_test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="db_test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="butiktest"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="sys"/>
+    <table id="8" parent="2" name="DATABASECHANGELOG"/>
+    <table id="9" parent="2" name="DATABASECHANGELOGLOCK"/>
+    <table id="10" parent="2" name="address"/>
+    <table id="11" parent="2" name="employee"/>
+    <table id="12" parent="2" name="phone"/>
+    <table id="13" parent="2" name="project"/>
+    <table id="14" parent="2" name="projectEmployee"/>
+    <column id="15" parent="8" name="ID">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="8" name="AUTHOR">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="8" name="FILENAME">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="8" name="DATEEXECUTED">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="8" name="ORDEREXECUTED">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="8" name="EXECTYPE">
+      <Position>6</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="8" name="MD5SUM">
+      <Position>7</Position>
+      <DataType>varchar(35)|0</DataType>
+    </column>
+    <column id="22" parent="8" name="DESCRIPTION">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="23" parent="8" name="COMMENTS">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="24" parent="8" name="TAG">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="25" parent="8" name="LIQUIBASE">
+      <Position>11</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="26" parent="8" name="CONTEXTS">
+      <Position>12</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="27" parent="8" name="LABELS">
+      <Position>13</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="28" parent="8" name="DEPLOYMENT_ID">
+      <Position>14</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="29" parent="9" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="9" name="LOCKED">
+      <Position>2</Position>
+      <DataType>bit(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="9" name="LOCKGRANTED">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="32" parent="9" name="LOCKEDBY">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="33" parent="9" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="34" parent="10" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="10" name="street">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="36" parent="10" name="city">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="37" parent="10" name="province">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="38" parent="10" name="country">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="39" parent="10" name="postcode">
+      <Position>6</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <key id="40" parent="10" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="11" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="42" parent="11" name="firstname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="43" parent="11" name="lastname">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="44" parent="11" name="salary">
+      <Position>4</Position>
+      <DataType>decimal(10,2)|0</DataType>
+    </column>
+    <column id="45" parent="11" name="startDate">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="46" parent="11" name="endDate">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="47" parent="11" name="managerId">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="48" parent="11" name="addressId">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="49" parent="11" name="FK7BF2CBDA30D4F463">
+      <ColNames>managerId</ColNames>
+    </index>
+    <index id="50" parent="11" name="FK7BF2CBDAE78SHS43">
+      <ColNames>addressId</ColNames>
+    </index>
+    <index id="51" parent="11" name="ID">
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="11" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="53" parent="11" name="ID">
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>ID</UnderlyingIndexName>
+    </key>
+    <foreign-key id="54" parent="11" name="FK7BF2CBDA30D4F463">
+      <ColNames>managerId</ColNames>
+      <RefSchemaName>db_test</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="55" parent="11" name="FK7BF2CBDAE78SHS43">
+      <ColNames>addressId</ColNames>
+      <RefSchemaName>db_test</RefSchemaName>
+      <RefTableName>address</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="56" parent="12" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="12" name="type">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="58" parent="12" name="phoneNumber">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="59" parent="12" name="areaCode">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="60" parent="12" name="ownerId">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="61" parent="12" name="FK7BF2CBDA5L67FG0W">
+      <ColNames>ownerId</ColNames>
+    </index>
+    <key id="62" parent="12" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="63" parent="12" name="FK7BF2CBDA5L67FG0W">
+      <ColNames>ownerId</ColNames>
+      <RefSchemaName>db_test</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="64" parent="13" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="13" name="type">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="66" parent="13" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="67" parent="13" name="budget">
+      <Position>4</Position>
+      <DataType>decimal(16,2)|0</DataType>
+    </column>
+    <column id="68" parent="13" name="leaderId">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="69" parent="13" name="FK7BF2CBDA90XC5T89">
+      <ColNames>leaderId</ColNames>
+    </index>
+    <key id="70" parent="13" name="PRIMARY">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="71" parent="13" name="FK7BF2CBDA90XC5T89">
+      <ColNames>leaderId</ColNames>
+      <RefSchemaName>db_test</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="72" parent="14" name="projectId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="73" parent="14" name="employeeId">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="74" parent="14" name="FK7BF2CBDA2J90CV3Q">
+      <ColNames>employeeId</ColNames>
+    </index>
+    <index id="75" parent="14" name="FK7BF2CBDADE4KF934">
+      <ColNames>projectId</ColNames>
+    </index>
+    <foreign-key id="76" parent="14" name="FK7BF2CBDADE4KF934">
+      <ColNames>projectId</ColNames>
+      <RefSchemaName>db_test</RefSchemaName>
+      <RefTableName>project</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <foreign-key id="77" parent="14" name="FK7BF2CBDA2J90CV3Q">
+      <ColNames>employeeId</ColNames>
+      <RefSchemaName>db_test</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

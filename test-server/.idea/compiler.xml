@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ear" />
+        <module name="ejb" />
+        <module name="model" />
+        <module name="persistance-jpa" />
+        <module name="rest" />
+        <module name="web" />
+        <module name="wildfly-ejb-in-ear-ear" />
+        <module name="wildfly-ejb-in-ear-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ear" target="1.8" />
+      <module name="ejb" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="persistance-jpa" target="1.8" />
+      <module name="rest" target="1.8" />
+      <module name="test-server" target="1.8" />
+      <module name="web" target="1.8" />
+      <module name="wildfly-ejb-in-ear-ear" target="1.8" />
+      <module name="wildfly-ejb-in-ear-ejb" target="1.8" />
+      <module name="wildfly-ejb-in-ear-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

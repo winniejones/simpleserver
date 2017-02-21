@@ -1,0 +1,4 @@
+
+fsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(î§ü’8þÃ‘ð‘+
+¢squid:S1598"€This file "AbstractDaoImpl.java" should be located in "se/test/server/persistance/jpa/implementation" directory, not in "/Users/Winston/Workspace/sandbox/simpleserver/test-server/persistance-jpa/src/main/java/se.test.server.persistance/jpa/implementation".(É¥×Ýøÿÿÿÿ8Þ¤Û’’+
+gsquid:UselessImportCheck"9Remove this unused import 'se.test.server.model.Address'.(ŒÞàÓúÿÿÿÿ8èÏÞ’’+

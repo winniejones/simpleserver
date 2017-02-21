@@ -1,0 +1,5 @@
+
+vsquid:S00122"TAt most one statement is allowed per line, but 2 statements were found on this line.(É¥ÎÔøÿÿÿÿ8àÜÀñ’+
+Xsquid:UselessImportCheck"*Remove this unused import 'javax.ejb.EJB'.(çÙ÷Êÿÿÿÿÿ8ƒÌ¿ñ’+
+Xsquid:UselessImportCheck"*Remove this unused import 'facade.Facade'.(ÅÕ’»ùÿÿÿÿ8ƒÌ¿ñ’+
+1squid:S1220""Move this file to a named package.

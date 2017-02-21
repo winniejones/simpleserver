@@ -1,0 +1,11 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(òÙâðþÿÿÿÿ8êÕ‹–+
+gsquid:UselessImportCheck"9Remove this unused import 'se.test.server.model.Address'.(ŒÞàÓúÿÿÿÿ8ßöÀ’+
+Asquid:S1166"%Either log or rethrow this exception.(”ý¾8à­‹Á’+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Þàš¬øÿÿÿÿ8µíóÀ’+
+osquid:UselessImportCheck"FRemove this unused import 'se.test.server.persistance.jpa.AddressDao'.(¿¼Áò8©×öÀ’+
+[squid:S1161":Add the "@Override" annotation above this method signature(Ñ»­ùÿÿÿÿ8Éš÷À’+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8à­‹Á’+
+Vsquid:S1161":Add the "@Override" annotation above this method signature(àÔ ¤8Ó±ˆÁ’+
+›squid:S1598"€This file "EmployeeDaoImpl.java" should be located in "se/test/server/persistance/jpa/implementation" directory, not in "/Users/Winston/Workspace/sandbox/simpleserver/test-server/persistance-jpa/src/main/java/se.test.server.persistance/jpa/implementation".(É¥×Ýøÿÿÿÿ

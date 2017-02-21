@@ -1,0 +1,9 @@
+
+Asquid:S1166"%Either log or rethrow this exception.(”ı¾8«øª³”+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ãÍ²¡ÿÿÿÿÿ8«øª³”+
+Asquid:S1166"%Either log or rethrow this exception.(”ı¾8«øª³”+
+¡squid:S1598"ÿThis file "AddressDaoImpl.java" should be located in "se/test/server/persistance/jpa/implementation" directory, not in "/Users/Winston/Workspace/sandbox/simpleserver/test-server/persistance-jpa/src/main/java/se.test.server.persistance/jpa/implementation".(É¥×İøÿÿÿÿ8«øª³”+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8«øª³”+
+[squid:S1161":Add the "@Override" annotation above this method signature(ú­ÆÂÿÿÿÿÿ8«øª³”+
+[squid:S1161":Add the "@Override" annotation above this method signature(ô®¢ıùÿÿÿÿ8«øª³”+

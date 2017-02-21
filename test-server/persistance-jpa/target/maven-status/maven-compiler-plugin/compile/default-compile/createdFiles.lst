@@ -1,0 +1,12 @@
+se/test/server/persistance/jpa/ProjectDao.class
+se/test/server/persistance/jpa/AddressDao.class
+se/test/server/persistance/jpa/implementation/ProjectEmployeeDaoImpl.class
+se/test/server/persistance/jpa/implementation/AddressDaoImpl.class
+se/test/server/persistance/jpa/implementation/AbstractDaoImpl.class
+se/test/server/persistance/jpa/ProjectEmployeeDao.class
+se/test/server/persistance/jpa/implementation/EmployeeDaoImpl.class
+se/test/server/persistance/jpa/EmployeeDao.class
+se/test/server/persistance/jpa/implementation/ProjectDaoImpl.class
+se/test/server/persistance/jpa/implementation/PhoneDaoImpl.class
+se/test/server/persistance/jpa/PhoneDao.class
+se/test/server/persistance/jpa/AbstractDao.class
